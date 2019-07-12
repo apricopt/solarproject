@@ -59,7 +59,7 @@
 	}
 
 	#z_navbar {
-		background:#06050c !important;
+		background: #052546 !important;
 		
 	}
 
@@ -108,7 +108,7 @@
 	}
 
 	.z_titles {
-		background:#05254612;
+		background:#052546;
 		width: 100%;
 		height: 50px;
 		
@@ -116,7 +116,7 @@
 
 
 	.z_titles h3 {
-		color:black;
+		color: white;
 		text-align: center;
 		padding-top: 10px;
 		
