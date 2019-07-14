@@ -4,6 +4,10 @@
 		
 	}
 
+	label {
+	font-weight: bold;
+	}
+
 	
 
 
@@ -26,12 +30,12 @@
 
 
 	}
-
+/*
 	@media screen and (max-width: 780px) {
 		#upper_window {
 			display: none;
 		}
-
+*/
 
 
 	}
@@ -59,7 +63,8 @@
 	}
 
 	#z_navbar {
-		background: #052546 !important;
+		background:#06050c !important;
+		box-shadow: 1px 2px 12px grey;
 		
 	}
 
@@ -71,8 +76,7 @@
 
 /*_____________________________________row1 starts _______________________________*/
 	#row1 {
-		/*height: 550px;*/
-		/*background-color: lightgreen;*/
+		padding: 30px;
 
 	}
 
@@ -80,43 +84,48 @@
 		height: 500px;
 		/*background: grey;*/
 	}
-	#row1 #row1_a img {
-		width:100%;
+	#row1  img {
+		width:30%;
 		margin-top: 40px;
+		border-radius: 150px;
 		box-shadow: 3px 3px 2px grey;
+		background-size: contain;
+		
+
+
+
 	}
 
-	#row1 #row1_b {
-		height: 500px;
-		/*background-color: red;*/
+	#row1 p {
+		
+		padding-left:30px;
 	}
     
-    #row1::after {
-    	content: "";
-    	clear: both;
-    	display: block;
-    }
+   
 
 	/*+_________________________row1 ends _________________________________*/
 
 /*_____________________________row2 starts __________________________*/
 	#row2 {
-		height:500px;
-		/*background: pink;*/
-		/*padding: 30px;*/
-		
+		padding-bottom: 30px;
 	}
 
+	.z_titles_container {
+		padding: 30px 0px 30px 0px;
+	}
 	.z_titles {
-		background:#052546;
-		width: 100%;
-		height: 50px;
+	background: #034955;
+    width: 20%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
 		
 	}
 
 
 	.z_titles h3 {
-		color: white;
+		color:white;
 		text-align: center;
 		padding-top: 10px;
 		
@@ -140,58 +149,37 @@
 
 	#row2 #row2_a {
 		padding-top: 30px;
-		height:400px;
+		height:180px;
 		border:1px solid #052546;
 		box-shadow: 3px 3px 5px grey;	
 		position: relative;	
+		padding-left: 20px;
 	}
 
-
-	#row2  .z_circle {
-	border: 2px solid;
-    width: 170px;
-    height: 170px;
-    position: relative;
-    border-radius: 87px;
-    margin-left: auto;
-    margin-right: auto;
-
+	#row2 .row2_a_img  {
+		width: 100px;
+		height: 100px;
+		object-fit: cover;
+		border-radius: 50px;
 
 	}
 
-	#row2  i {
-		position: absolute;
-    	display: inline-block;
-    	font-size: 104px;
-    	color: #052546;
-    	left: 53px;
-    	top: 28px;
+ 	#row2 #row2_a h4 {
+ 		text-align: center;
+ 	}
 
-
-	}
-
-	#row2  h2 {
-		display: block;
-		width: 60%;
-		margin-left: auto;
-		margin-right: auto;
-	}
+	
 
 	#row2 #row2_b {
 		padding-top: 30px;
-		height:400px;
+		height:180px;
 		border:1px solid #052546;
 		box-shadow: 3px 3px 5px grey;
+		padding-left: 20px;
 		
 
 	}
 
-	#row2 #row2_c {
-		padding-top: 30px;
-		height:400px;
-		border:1px solid #052546 ;
-		box-shadow: 3px 3px 5px grey;
-	}
 
 
 	/*@media screen and (max-width: 767px) {
@@ -269,19 +257,120 @@
 	/*_____________________row4 starts _____________*/
 
 	#row4 {
-		height: 500px;
-		/*background: lightblue;*/
+		/*height: 500px;*/
+		background: lightblue;
+
 	}
 
+	#row4 #row4_a {
+		/*height: 600px;*/
+		background-color: grey;
+		padding-bottom: 30px;
+
+	}
+
+	#row4 #row4_a #row4_a_upper {
+		padding: 30px 0px 10px 0px;
+
+	}
+
+	#row4 #row4_a #row4_a_upper img {
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+	}
+
+	#row4 #row4_a #row4_a_lower {
+		background:green;
+		height: 300px;
+	}
+
+
+
+
+	#row4 #row4_b {
+		/*height: 600px;*/
+		background-color: pink;
+		padding-top: 75px;
+		
+	}
 	/*_____________row4 ends _____________*/
 
-	/*_________ row5 starts ____________*/
+
+	/*-___________row5 starts________________*/
 
 	#row5 {
+
+
+	}
+
+	#row5 #row5_a {
+		width: 100%;
+		background-color: pink;
+
+	}
+
+	#row5 #row5_a img {
+
+	}
+
+	#row5_a_1 {
+		height: 400px;
+	}
+	#row5_a_2 {
+		height: 400px;
+	}
+
+	#row5 #row5_b {
+		/*height: 300px;*/
+		background-color: green;
+		padding-bottom: 30px;
+
+	}
+
+	/* __________ row6 starts _______________*/
+
+
+	#row6 {
+		/*height: 500px;*/
+		padding-bottom: 30px;
+	} 
+
+	#row6 #row6_a {
+		height: 600px;
+		padding-top: 100px;
+		border-radius: 40px 0px 0px 40px;
+	}
+
+	@media only screen and (max-width:575px) {
+		#row6 #row6_a {
+			border-radius: 40px 40px 0px 0px;
+			height: 300px;
+			padding-top: 50px;
+
+		}
+
+
+	}
+
+	#row6 #row6_b {
+		height: 600px;
+		
+	}
+
+
+	/*____________row6 ends _________________*/
+
+	/*_________ row_last starts  ____________*/
+
+	#row_last {
 
 		height: 100px;
 		background:#052546;
 
 	}
 
-	/*__________row5 ends _________*/	
+	/*__________row_last ends _________*/	
+
+
+
